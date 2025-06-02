@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias República Checa</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fuente moderna de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Iconos para cerrar el popup (Material Icons) -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Popup de Cookies -->
+    <div id="cookie-popup" class="cookie-popup">
+        <div class="cookie-popup-inner">
+            <span>Este sitio utiliza cookies para mejorar tu experiencia. ¿Aceptas el uso de cookies?</span>
+            <div class="cookie-buttons">
+                <button id="accept-cookies">Aceptar</button>
+                <button id="decline-cookies">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header principal con fondo -->
+    <header class="main-header">
+        <div class="header-overlay">
+            <h1>Noticias República Checa</h1>
+            <p class="subtitle">Actualidad, cultura y vida en Praga y todo el país</p>
+        </div>
+    </header>
+
+    <!-- Carrusel de anuncios personales -->
+    <section class="ads-carousel-section">
+        <h2>Clasificados de la Comunidad</h2>
+        <div class="ads-carousel" id="ads-carousel">
+            <div class="ad"><span class="ad-name">Lucie Nováková:</span> Vendo bicicleta eléctrica, casi nueva. Zona Letná, Praga. Tlf: 608123456</div>
+            <div class="ad"><span class="ad-name">Petr Svoboda:</span> Busco profesor/a de español para mi hijo, nivel básico. Tlf: 777654321</div>
+            <div class="ad"><span class="ad-name">Marta Šimková:</span> Alquilo habitación en piso compartido, zona Vinohrady. Tlf: 603987654</div>
+            <div class="ad"><span class="ad-name">Tomáš Dvořák:</span> Ofrezco clases particulares de guitarra, todos los niveles. Tlf: 602555111</div>
+            <div class="ad"><span class="ad-name">Jana Černá:</span> Se vende coche Skoda Fabia 2016, 85.000km, buen estado. Tlf: 604999888</div>
+            <div class="ad"><span class="ad-name">Alejandro Ruiz:</span> Busco grupo para jugar fútbol los sábados por la mañana. Tlf: 721333222</div>
+            <div class="ad"><span class="ad-name">Radek Holec:</span> Traspaso cafetería en el centro de Brno, excelente ubicación. Tlf: 724111222</div>
+            <div class="ad"><span class="ad-name">Sofía Martínez:</span> Ofrezco traducciones checo-español y español-checo. Tlf: 601223344</div>
+        </div>
+    </section>
+
+    <!-- Noticias principales -->
+    <main>
+        <section class="news-section">
+            <!-- NOTICIA 1 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Praga calle noticia">
+                <div class="news-content">
+                    <h3>El encanto de las calles de Praga en primavera</h3>
+                    <p>La ciudad se llena de turistas y locales disfrutando de los cafés y terrazas a lo largo del Moldava. Las flores adornan los parques y los músicos callejeros animan la ciudad antigua.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 2 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Castillo de Praga noticia">
+                <div class="news-content">
+                    <h3>Cambio de guardia en el Castillo de Praga</h3>
+                    <p>Una de las tradiciones más antiguas de la ciudad sigue atrayendo a miles de visitantes cada día. Este año, la ceremonia incluirá una banda militar internacional.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 3 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=600&q=80" alt="Tranvía noticia">
+                <div class="news-content">
+                    <h3>Modernización de la red de tranvías</h3>
+                    <p>El transporte público de Praga implementa nuevas rutas y vehículos ecológicos, reduciendo la contaminación y mejorando el servicio para los ciudadanos.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 4 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80" alt="Cerveza checa">
+                <div class="news-content">
+                    <h3>Festival de la Cerveza Checa reúne a miles de visitantes</h3>
+                    <p>El tradicional festival en Pilsen ha batido récords de asistencia. Más de 300 tipos de cerveza artesanal y música en vivo durante todo el fin de semana.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 5 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80" alt="Montañas nevadas">
+                <div class="news-content">
+                    <h3>Riesgo de avalanchas en los Montes Gigantes</h3>
+                    <p>Protección Civil advierte a los excursionistas por el riesgo de avalanchas tras intensas nevadas. Se recomienda consultar el parte meteorológico antes de viajar.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 6 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1444065381814-865dc9da92c0?auto=format&fit=crop&w=600&q=80" alt="Mercado tradicional">
+                <div class="news-content">
+                    <h3>Mercado tradicional de Ostrava abre sus puertas</h3>
+                    <p>Productos artesanales, gastronomía local y actividades para niños en uno de los mercados más antiguos del país, abierto hasta final de junio.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 7 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Médicos checos">
+                <div class="news-content">
+                    <h3>Médicos checos desarrollan nueva técnica quirúrgica</h3>
+                    <p>Un equipo del Hospital Motol en Praga ha presentado una innovación en cirugía cardíaca mínimamente invasiva que podría salvar miles de vidas.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 8 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=600&q=80" alt="Estudiantes en Praga">
+                <div class="news-content">
+                    <h3>Las universidades checas atraen a estudiantes internacionales</h3>
+                    <p>El número de extranjeros en las universidades checas ha aumentado un 12% este año, con estudiantes de España, Alemania y Ucrania principalmente.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+            <!-- NOTICIA 9 -->
+            <article class="news-card animate-in">
+                <img src="https://images.unsplash.com/photo-1424746219973-8fe3bd07d8e3?auto=format&fit=crop&w=600&q=80" alt="Río Moldava noticias">
+                <div class="news-content">
+                    <h3>Se inaugura el nuevo puente sobre el río Moldava</h3>
+                    <p>El moderno puente peatonal conecta los barrios de Karlín y Holešovice, facilitando el acceso a pie y en bici.</p>
+                    <a href="#" class="read-more">Leer más</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Carrusel de anuncios destacados -->
+    <section class="featured-ads-section">
+        <h2>Anuncios Destacados</h2>
+        <div class="featured-ads-carousel" id="featured-ads-carousel">
+            <div class="featured-ad">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Lucie Nováková">
+                <div>
+                    <strong>Lucie Nováková</strong>
+                    <p>Vendo scooter eléctrica, 2023, poco uso. Praga 1. Tlf: 606101010</p>
+                </div>
+            </div>
+            <div class="featured-ad">
+                <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Petr Svoboda">
+                <div>
+                    <strong>Petr Svoboda</strong>
+                    <p>Ofrezco alojamiento para estudiantes Erasmus, cerca del centro. Tlf: 605202020</p>
+                </div>
+            </div>
+            <div class="featured-ad">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Jana Černá">
+                <div>
+                    <strong>Jana Černá</strong>
+                    <p>Busco empleo como niñera con experiencia y referencias. Zona Praga 6. Tlf: 607303030</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>&copy; 2025 Noticias República Checa &middot; Hecho con ❤️ en Praga</span>
+        <h1>Instancia desde Auto Scaling Group: $(hostname)</h1>
+<script src="script.js"></script>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
